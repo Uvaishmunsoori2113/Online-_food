@@ -1,0 +1,61 @@
+/* Navigation bar */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 3px 5px;
+    padding-bottom: 8px;
+}
+
+/* section Hero */
+#Hero {
+    height: 465px;
+    padding: 3px 28px;
+}
+
+#Hero::before {
+    height: 950px;
+}
+
+#Hero p {
+    font-size: 13px;
+}
+
+
+
+/* section services */
+#services {
+    flex-direction: column;
+    margin: 3px;
+}
+
+/* client section */
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    width: 66px;
+    padding: 0px 7px;
+    height: auto;
+
+}
+
+/* contact section */
+.contact-box form {
+    width: 80%;
+}
+
+/* footer */
+/* uttility classes */
+.h-primary {
+    font-size: 26px;
+}
+
+/* button section */
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
+}
